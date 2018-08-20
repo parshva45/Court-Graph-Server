@@ -9,7 +9,7 @@ app.use(function(req, res, next) {
 
   var allowedOrigins = [
     "http://localhost:4200",
-    "https://court-angular-app.herokuapp.com"
+    "https://court-angular-client.herokuapp.com"
   ];
   var origin = req.headers.origin;
   if(allowedOrigins.indexOf(origin) > -1){
